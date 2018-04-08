@@ -1,0 +1,9 @@
+source "https://rubygems.org"
+
+gem 'rspec', '~> 3.0'
+#gem 'fhir_client'
+#gem 'fhir_client', :path => '../../fhir_client'
+gem 'fhir_client', :git => 'https://github.com/fhir-crucible/fhir_client.git', :ref => '11dd0a91a6e6c1d3257672e0b4a56328376caae1' # remove once merged, deployed as gem
+gem 'fhir_models'
+# gem 'fhir_models', :path => '../../fhir_models'
+gem 'pry'
