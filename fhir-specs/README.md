@@ -1,7 +1,7 @@
 SyntheticMass FHIR Server Specification
 ============================
 
-This test suite defines a minimum set of requirements for a FHIR server to support SyntheticMass.  Synthetic Mass requires 
+This test suite defines a minimum set of requirements for a FHIR server to support SyntheticMass.  SyntheticMass requires 
 a FHIR server that can fulfill an analytics use case, capable of advanced FHIR search queries over
 millions of patient records.  It also must be able to support queries from web clients (with JSON responses), 
 as SyntheticMass provides a web-based visualization and all queries are issued directly from the client browser.
